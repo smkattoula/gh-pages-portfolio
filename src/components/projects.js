@@ -14,7 +14,7 @@ class Project extends Component {
                 {/* Project 1 */}
                 <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black', height:'176px', background: 'url(https://pngimg.com/uploads/treasure_chest/treasure_chest_PNG60.png) center / cover'}}></CardTitle>
-                    <CardText>A fun treasure hunt game built using only HTML, CSS, and JavaScript!</CardText>
+                    <CardText>A fun treasure hunt game built using only HTML, CSS, and JavaScript! A pair programmed project.</CardText>
                     <CardActions className= "button-text" border>
                         <Button colored href="https://github.com/smkattoula/treasure-hunt-game" target="_blank">Github</Button>
                         <Button colored href="https://treasure-hunt-game-beach-theme.herokuapp.com/" target="_blank">Live Demo</Button>
@@ -27,7 +27,7 @@ class Project extends Component {
                 {/* Project 2 */}
                 <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTd0-RvEI12MaS6Athes3f3ttRj-0bWHKj6GXelWHzAV6VmumGU&usqp=CAU) center / cover'}}></CardTitle>
-                    <CardText>A full-stack web application designed to keep track of your grocery items and give you food recipes to make based on the ingredients you own! Implements CRUD funtionality, RESTful API's, and Devise User Authentication. Developed by a team of 4 ,including myself, utilizing React on Rails. Currently in Alpha phase. </CardText> 
+                    <CardText>A full-stack web application designed to keep track of your grocery items and give you food recipes to make based on the ingredients you own! Implements CRUD funtionality, RESTful API's, and Devise User Authentication. Built with a team of 4 and utilizing React on Rails. Project is in Alpha phase. </CardText> 
                     <CardActions className= "button-text" border>
                         <Button colored href="https://github.com/Cult-of-Code/Pantry_App" target="_blank">Github</Button>
                         <Button colored href="https://pantry-application.herokuapp.com/" target="_blank">Live Demo</Button>
@@ -55,7 +55,7 @@ class Project extends Component {
             return (<div><h1>Project Coming Soon!</h1></div>
             )
         } else if (this.state.activeTab === 2) {
-            return (<div><h1>Project Currently in Progress (May 2020)!</h1></div>
+            return (<div><h1>Project Coming Soon!</h1></div>
             )
         } 
     }
